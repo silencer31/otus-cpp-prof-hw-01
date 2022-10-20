@@ -56,6 +56,7 @@ target_link_libraries(test_version
 # Link test target against gtest libraries
 target_link_libraries(g_test_version PRIVATE 
     ${GTEST_BOTH_LIBRARIES}
+    pthread
     helloworld
 )
 
